@@ -1,0 +1,141 @@
+.footer .box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Adjusted for smaller screens */
+  gap: 1.5rem;
+  background-color: #eab2b2;
+  border-radius: 6px;
+  padding: 20px;
+}
+
+.footer .box-container .box {
+  padding: 10px;
+}
+
+.footer .box-container .box h3 {
+  font-size: 1.8rem; /* Adjusted font size for smaller screens */
+  color: #f9efef;
+  padding: 1rem 0;
+}
+
+.footer .box-container .box .links {
+  font-size: 1.4rem; /* Adjusted font size for smaller screens */
+  display: block;
+  color: #10919d;
+  padding: 1rem 0;
+  text-decoration: none;
+}
+
+.footer .box-container .box .links:hover {
+  color: #f4f4f4;
+}
+
+.footer .box-container .box p {
+  font-size: 1.4rem; /* Adjusted font size for smaller screens */
+  color: #18c8158f;
+  padding: 1rem 0;
+}
+
+.footer .box-container .box p i {
+  padding-right: 0.5rem;
+  color: #eee5e5;
+}
+
+.footer .box-container .box .share {
+  padding: 1rem 0;
+}
+
+.footer .box-container .box .share a {
+  height: 4rem; /* Reduced height for smaller screens */
+  width: 4rem; /* Reduced width for smaller screens */
+  line-height: 4rem;
+  font-size: 1.4rem; /* Adjusted font size for smaller screens */
+  color: #cb1c1c;
+  background: #000;
+  border-radius: 50%;
+  margin-right: 0.5rem;
+  text-align: center;
+}
+
+.footer .box-container .box .share a:hover {
+  background: #f3f0f0; /* Lighter background on hover */
+}
+
+.footer .box-container .box form .email {
+  margin-bottom: 1rem;
+  width: 100%; /* Full width input field */
+  height: 40px; /* Reduced height for smaller screens */
+  background: #e0d0d0;
+  padding: 1rem;
+  font-size: 1.4rem; /* Adjusted font size for smaller screens */
+  color: #fff;
+  text-transform: none;
+  border: none;
+  border-radius: 4px;
+}
+
+.footer .box-container .box .btn {
+  border: 1px solid white;
+  background-color: black;
+  color: #0ff31e;
+  width: 100px;
+  height: 40px;
+  border-radius: 2px;
+  font-size: 1.4rem; /* Adjusted font size for smaller screens */
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.footer .box-container .box .btn:hover {
+  background-color: greenyellow;
+  color: black;
+}
+
+.credit {
+  font-size: 1.8rem; /* Adjusted font size for smaller screens */
+  text-align: center;
+  padding: 2rem;
+  color: #fff;
+  background: #111;
+  line-height: 1.5;
+}
+
+.credit span {
+  color: #f00;
+}
+
+/* Media Query for Mobile */
+@media (max-width: 768px) {
+  .footer .box-container {
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Adjusted column width for smaller screens */
+  }
+
+  .footer .box-container .box {
+      padding: 8px; /* Reduced padding for smaller screens */
+  }
+
+  .footer .box-container .box h3 {
+      font-size: 1.6rem; /* Further reduced font size for smaller screens */
+  }
+
+  .footer .box-container .box .links {
+      font-size: 1.2rem; /* Further reduced font size for smaller screens */
+  }
+
+  .footer .box-container .box p {
+      font-size: 1.2rem; /* Further reduced font size for smaller screens */
+  }
+
+  .footer .box-container .box .share a {
+      height: 3.5rem; /* Reduced height for smaller screens */
+      width: 3.5rem; /* Reduced width for smaller screens */
+      font-size: 1.2rem; /* Further reduced font size for smaller screens */
+  }
+
+  .footer .box-container .box form .email {
+      font-size: 1.2rem; /* Further reduced font size for smaller screens */
+  }
+
+  .credit {
+      font-size: 1.6rem; /* Further reduced font size for smaller screens */
+  }
+}
