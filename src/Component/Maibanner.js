@@ -17,7 +17,7 @@ function Maibanner() {
 
             <button className="shop-btn">SHOP NOW</button>
         </div> 
-        <img src={banner} />             
+        <img src={banner} alt='' />             
     </div>
     <About/>
 </div>
